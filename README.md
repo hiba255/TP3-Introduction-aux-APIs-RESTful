@@ -1,3 +1,6 @@
+## 📄 Fichier : reponses.js
+
+```javascript
 // reponses
 // TP3 – RESTful APIs: Réponses aux questions 2, 3, 4, 6a, 6b, 6c
 // Q1 API key API_KEY = 1aa3b3a2a30479c44d2b14e77bed9a07
@@ -71,3 +74,4 @@ axios.get("https://openlibrary.org/search.json?q=python")
     }
   })
   .catch(err => console.log("Erreur Open Library:", err));
+```
